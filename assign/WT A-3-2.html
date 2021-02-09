@@ -1,0 +1,56 @@
+<html>
+<head>
+	<TITLE>Course Form</TITLE>
+</head>
+<body style="background-color: lightgreen">
+	<form action="/action_page.php">
+		<label for="Name"><b>Name:</b></label><br>
+		<input type="text" id="Name"name="Name"><br>
+		<label for="Class"><b>Class:</b></label><br>
+		<input type="text" id="Class"name="Class"><br>
+		<label for="year"><b>Year:</b></label><br>
+		<select id="year">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+		</select><br>
+		<label for="Semester"><b>Semester:</b></label><br>
+		<select id="Semester">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+		</select><br>
+		<label for="Branch"><b>Branch:</b></label><br>
+		<input type="text" id="Branch"name="Branch"><br>
+		<label for="Section"><b>Section:</b></label><br>
+		<select id="Section">
+			<option value="A">A</option>
+			<option value="B">B</option>
+		</select><br>
+		<label for="roll no."><b>Roll No.:</b></label><br>
+		<input type="number" id="roll no."name="roll no."><br>
+		<label for="reg no."><b>Registration No.:</b></label><br>
+		<input type="number" id="reg no."name="reg no."><br>
+		<label for="mail"><b>mail id:</b></label><br>
+		<input type="text" id="mail"name="mail"><br>
+		<label for="phn no."><b>Mobile No.:</b></label><br>
+		<input type="number" id="phn no."name="phn no."><br>
+		<label for="Subjects"><b>Courses:</b></label>
+		<select id="Subjects"multiple>
+			<option value="DN">Data Networks</option>
+			<option value="DSP">Digital Signal Processing</option>
+			<option value="ERTOS">Embedded and Real Time Operating Systems</option>
+			<option value="ITC">Information Theory and Coding</option>
+			<option value="DE">Low power VLSI</option>
+			<option value="DE">Web Technologies</option>
+			<option value="OE">OOPS</option>
+		</select><br><br>
+		<input type="submit" value="Submit">
+    </form>
+</body>
